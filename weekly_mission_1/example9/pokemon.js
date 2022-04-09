@@ -1,4 +1,4 @@
-class Pokemon {
+class MyPokemon {
     constructor (pokemonName) {
         this.pokemonName = pokemonName
     }
@@ -12,4 +12,4 @@ class Pokemon {
     }
 }
 
-module.exports = Pokemon
+export default MyPokemon
